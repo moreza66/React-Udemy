@@ -6,7 +6,7 @@ const ExpensesList = (props) => {
   if (props.items.leng === 0) {
     return <h2 className="expenses-list__fallback">Found No Expenses.</h2>;
   }
-
+  // console.log("moomomomomomo", props);
   return (
     <ul className="expenses-list">
       {props.items.map((expense) => (
